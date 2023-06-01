@@ -578,12 +578,12 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
   </div>
   
   <div class="layout one-col fixed-width" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 173000px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
-    <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #307fb0;" lang="x-layout__inner">
-    <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0"><tr class="layout-fixed-width" style="background-color: #307fb0;"><td style="width: 600px" class="w560"><![endif]-->
+    <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #05a3a4;" lang="x-layout__inner">
+    <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0"><tr class="layout-fixed-width" style="background-color: #05a3a4;"><td style="width: 600px" class="w560"><![endif]-->
       <div class="column" style='text-align: left;color: #60666d;font-size: 14px;line-height: 21px;font-family: "Open Sans",sans-serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);'>
     
         <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 24px;Margin-bottom: 24px;">
-  <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 36px;line-height: 43px;font-family: bitter,georgia,serif;text-align: center;" lang="x-size-48"><span class="font-bitter"><font color="#ffffff"><strong>LinkedIN</strong></font></span></h1>
+  <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 36px;line-height: 43px;font-family: bitter,georgia,serif;text-align: center;" lang="x-size-48"><span class="font-bitter"><font color="#ffffff"><strong>SarahahApp</strong></font></span></h1>
 </div>
     
       </div>
@@ -601,17 +601,17 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
 </div>
     
         <div style="Margin-left: 20px;Margin-right: 20px;">
-  <h2 class="size-24" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 20px;line-height: 28px;text-align: center;" lang="x-size-24"><strong>Verify Your Email</strong></h2><p style="Margin-top: 16px;Margin-bottom: 0;"><strong>Hello ${options.name},</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Thank you for signing up to LinkedIN App.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Please click on the following button to activate your token.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Sincerely,<br>Team LinkedIN</strong></p>
+  <h2 class="size-24" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 20px;line-height: 28px;text-align: center;" lang="x-size-24"><strong>Verify Your Email</strong></h2><p style="Margin-top: 16px;Margin-bottom: 0;"><strong>Hello ${options.name},</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Thank you for signing up to SarahahApp App.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Please click on the following button to activate your token.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Sincerely,<br>Team SarahahApp</strong></p>
 </div>
     
         <div style="Margin-left: 20px;Margin-right: 20px;">
   <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-    <![if !mso]><a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #5c91ad;font-family: 'Open Sans', sans-serif;" href="http://localhost:3000/user/verify/${token}">Click here</a><![endif]>
-  <!--[if mso]><p style="line-height:0;margin:0;">&nbsp;</p><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="http://photobookworldwide.createsend1.com/t/d-l-dlldol-l-r/" style="width:118px" arcsize="9%" fillcolor="#5C91AD" stroke="f"><v:textbox style="mso-fit-shape-to-text:t" inset="0px,11px,0px,11px"><center style="font-size:14px;line-height:24px;color:#FFFFFF;font-family:sans-serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:4px">Click here</center></v:textbox></v:roundrect><![endif]--></div>
+    <![if !mso]><a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #05a3a4;font-family: 'Open Sans', sans-serif;" href="${options.link}/user/verify/${token}">Click here</a><![endif]>
+  <!--[if mso]><p style="line-height:0;margin:0;">&nbsp;</p><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="http://photobookworldwide.createsend1.com/t/d-l-dlldol-l-r/" style="width:118px" arcsize="9%" fillcolor="#05a3a4" stroke="f"><v:textbox style="mso-fit-shape-to-text:t" inset="0px,11px,0px,11px"><center style="font-size:14px;line-height:24px;color:#FFFFFF;font-family:sans-serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:4px">Click here</center></v:textbox></v:roundrect><![endif]--></div>
 </div>
     
     <div style="font-size: 12px;font-style: normal;font-weight: normal;" align="center">
-      <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 90%;max-width: 720px;" alt="" width="600" src="https://i1.createsend1.com/ei/d/E8/44B/C1E/133021/csfinal/64fdceb12bf24b41b92e654dee7b59cf.jpg">
+      <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 90%;max-width: 720px;" alt="" width="600" src="https://sarahah.top/img/main.jpg">
     </div>
   
       </div>
@@ -624,15 +624,7 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
     <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0"><tr class="layout-email-footer"><td style="width: 400px;" valign="top" class="w360"><![endif]-->
       <div class="column wide" style='text-align: left;font-size: 12px;line-height: 19px;color: #b9b9b9;font-family: "Open Sans",sans-serif;Float: left;max-width: 400px;min-width: 320px; width: 320px;width: calc(8000% - 47600px);'>
         <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
-          <table class="email-footer__links emb-web-links" style="border-collapse: collapse;table-layout: fixed;"><tbody><tr>
-          
-<td class="emb-web-links" style="padding: 0;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="https://www.facebook.com/photobookww"><img style="border: 0;" src="https://i8.createsend1.com/static/eb/customise/13-the-blueprint-3/images/facebook.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="https://www.twitter.com/photobookww"><img style="border: 0;" src="https://i10.createsend1.com/static/eb/customise/13-the-blueprint-3/images/twitter.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a 
-style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="http://instagram.com/photobookww"><img style="border: 0;" src="https://i1.createsend1.com/static/eb/customise/13-the-blueprint-3/images/instagram.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="http://www.photobookworldwide.com"><img style="border: 0;" src="https://i3.createsend1.com/static/eb/customise/13-the-blueprint-3/images/website.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: 
-#b9b9b9;" href="https://pinterest.com/photobookww"><img style="border: 0;" src="https://i4.createsend1.com/static/eb/customise/13-the-blueprint-3/images/pinterest.png" width="26" height="26"></a></td>
-          </tr></tbody></table>
-          <div style="Margin-top: 20px;">
-            <div>Copyright &#169; 2016 LinkedIN Worldwide. All rights reserved.&nbsp;</div>
-          </div>
+        
           <div style="Margin-top: 18px;">
             
           </div>

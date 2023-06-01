@@ -18,8 +18,10 @@ export const signup =catchAsyncError(async(req,res,next)=>{
         if(password!==confirmPassword){return next(new appError("Password not matched",400))}
         let {secure_url} = await cloudinary.uploader.upload(req.file.path,{folder:"pic"})
         let  hashPassword= bcrypt.hashSync(password,Number(process.env.Rounded))
+
         let addUser = await userModel.insertMany({email,name,password:hashPassword,age,mobileNumber,photoPath:secure_url})
-        sendEmail({email,name})
+        let link= `${req.protocol}://${req.headers.host}`
+        sendEmail({email,name,link})
         res.status(201).json({message:"done",addUser})
     
 })
@@ -110,11 +112,13 @@ export const changePassword = catchAsyncError(
 //-- forget password --//
 export const forgetPassword = catchAsyncError(
         async(req,res,next)=>{
-        let {email,name}=req.body
+        let {email}=req.body
         let user = await userModel.findOne({email})
         if(!user){return next(new appError("user not found please register as a new user",404))}
         let code = nanoid(4)   
-        sendForgetEmail({email,name,code})
+        let name = user.name
+        let link= `${req.protocol}://${req.headers.host}`
+        sendForgetEmail({email,name,code,link})
         const sendCode= await userModel.findOneAndUpdate({email},{code},{new:true})
         res.status(200).json({message:"done",sendCode})
     }
