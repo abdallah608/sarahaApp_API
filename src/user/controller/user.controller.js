@@ -130,7 +130,7 @@ export const resetPassword =catchAsyncError(
         let {token}=req.params
         let{newPassword,code}=req.body
         if(!token){return next(new appError("invalid token"),401)}
-            jwt.verify(token,process.env.verifyKey,async(err,decoded)=>{
+            jwt.verify(token,process.env.verifyKey,async(err,decoded)=>{ 
             if(err) {return next(new appError("invalid token"),401)}  
             let user= await userModel.findOne({email:decoded.email})
             if(!user){return next(new appError("not found this user",401))} 
