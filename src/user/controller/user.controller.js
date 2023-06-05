@@ -18,10 +18,8 @@ export const signup =catchAsyncError(async(req,res,next)=>{
         if(password!==confirmPassword){return next(new appError("Password not matched",400))}
         let {secure_url} = await cloudinary.uploader.upload(req.file.path,{folder:"pic"})
         let  hashPassword= bcrypt.hashSync(password,Number(process.env.Rounded))
-
         let addUser = await userModel.insertMany({email,name,password:hashPassword,age,mobileNumber,photoPath:secure_url})
-        let link= `${req.protocol}://${req.headers.host}`
-        sendEmail({email,name,link})
+        sendEmail({email,name})
         res.status(201).json({message:"done",addUser})
     
 })
